@@ -1,0 +1,386 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Alibaba Clone</title>
+</head>
+
+<body>
+    <div id="header-ancher">
+        <div><button>
+            <div class="internal-header">
+                <img class="img1" src="https://sc04.alicdn.com/kf/HTB11yEKaPnuK1RkSmFPq6AuzFXaE.jpg_220x220.jpg">
+                <p>Apparel<br> New</p>
+            </div>
+        </button></div>
+        <div>
+            <button>
+                <div class="internal-header">
+                <img src="https://sc04.alicdn.com/kf/H0890e5f40f4a4c6d83ac9140bb0f1a8at.jpg_220x220.jpg">
+                <p>Consumer <br>Electronics</p>
+            </div>
+            </button>
+        </div>
+        <div>
+            <button>
+                <div class="internal-header">
+                <img src="https://sc04.alicdn.com/kf/Hb5142fde10cf4a2490b307ebb6ebd1188.jpg_220x220.jpg">
+                <p>2021 <br>Sports &</p>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button>
+                <div class="internal-header">
+                <img class="img1"src="https://sc04.alicdn.com/kf/Hcfba05b61dc747809322104a792da797p.jpg_220x220.jpg">
+                <p>Home <br>Appliances</p>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button>
+                <div class="internal-header">
+                <img class="img1" src="https://sc04.alicdn.com/kf/H21e44909ecdb431bbc6a209e62bd95243.jpg_220x220.jpg">
+                <p>2021 <br>Machinery</p>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button>
+                <div class="internal-header">
+                <img src="https://sc04.alicdn.com/kf/Hc51a14d7afaf4f74900ff720853e9cf1S.jpg_220x220.jpg">
+                <p>Furniture</p>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button>
+                <div class="internal-header">
+                <img src="https://sc04.alicdn.com/kf/Hbb5a8346c9674b03958b177b0326a4b4Y.jpg_220x220.jpg">
+                <p>Trending <br>beauty</p>
+                </div>
+            </button>
+        </div>
+    </div>
+    <!-- End Header-link part -->
+
+    <!-- Start search-bar -->
+    <div id="logo-header">
+        <div id="logo-part">
+            <a href=""><img src="data:image/png;base64,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"></a>
+        </div>
+        <div id="Search-bar">
+            <select>
+                <option>Products</option>
+                <option>Products</option>
+            </select>
+            <input type="search">
+            <button>Search</button>
+        </div>
+        <div id="sign-in-part">
+            <div>
+                <img src="https://previews.123rf.com/images/veronawinner/veronawinner1904/veronawinner190400011/124072712-person-icon-in-line-style-man-symbol-isolated-on-white-background-simple-avatar-abstract-icon-in-bla.jpg">
+            </div>
+            <div id="ancher-login-part">
+                <a class="ancher-login-part" href="">Sing In</a><br>
+                <a class="ancher-login-part" href="">Join Free</a>
+            </div>
+        </div>
+        <div id="message-part">
+            <img src="https://previews.123rf.com/images/kppwc/kppwc1905/kppwc190500151/125231437-chat-message-icon-speech-bubble-icon-vector.jpg">
+            <br><a class="ancher-login-part" href="">Messages</a>
+        </div>
+        <div id="order-part">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwr0X3YJeIXgPzIBj179Q6QPSTTHu6J_FIcFh-MyvCCjO4AmmIlexzQ7ifo-7ppbzPcWs&usqp=CAU">
+            <br><a class="ancher-login-part" href="">Orders</a>
+        </div>
+        <div id="cart-part">
+            <img src="https://icons.veryicon.com/png/o/commerce-shopping/alibaba-international-station-icon-library/cart-26.png">
+            <br><a class="ancher-login-part" href="">Cart</a>
+        </div>
+    </div>
+
+    <!-- end search-bar -->
+    <!-- Menu bar start -->
+    <div id="menu-bar">
+        <div id="categories">
+            <img id="menu-bar-img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8jHyAAAABPTU7W1dUcGBkZExVqaGgfGxwHAAAbFhf29vYQCAofGhsUDhDy8vKxsLAxLS7o6OgMAAWOjI18enteXFxFQ0PCwcG3trbq6urc3NxVU1OWlJSHhoZycHClpKVCP0A5Nje9vLzJyMiAfn5samooJCWopqcI4FBKAAAC1UlEQVR4nO3c2XaqQBCFYWknhhZxwijBIdHE93/CYBYSxT7nisK1iv+7rQvYgEiPvR4AAAAAAAAAAAAAAAAAAAAAAAAAAAAANeaDLHr1OciJkndzNcvnrz4VGZuZCb0r3y6WGm/kzvheJVhPa+V5nr73RaTLQSsBV8a7F88e7+LO2FE4lBCG1uxbeGQOjwGLiOl9Oa2Xm2WP9UemcVP7dFSz+SvvAtGARcT03+fWjN1zwslHVR3I3sEr8ymc8DlgcdDqBbCPxRP6M9mAzptkl2U1kg9YXE/Z/+BPV8LRuKxm8g9pkfBNNOFh4Tjm5FhW39pIGCTtJxyuy+pJQUL9T6n7TZPfyhPfUW464VY0Yc93ZDDZrXqWf5mG6/+dXgPy54+WsF9VM+lPmuJynoQTRs838f6HkUv/EoO9cMCicVjPsHg45sqI/hRN2kLjonabbP+xfPFMPJIRB3HuPqeGHcoW/pVvxvWLOt2cv8YiVonwa7Ry6pv491kMjXdp6ZhtO50nQRDYNNHYS1OZq04HAAA6Ibssv84H6cbo62w+TGBH8cIEufhAySts+3+t3MB77vmKsoGMrKXLmX2P7hrAE1NrP0W7mTUyFrN9Gw3E6XfoPXgcDBoYK9eN4cfiI0+FtN5h6Id3F3Yg203j+fIRHR339lxVo2PoOK1GI4bSD2rfEcFUb4BEvlvf7mQDTl0RTDVWsh6KJ/SMbELn+Fm8KqvbVkZmZL8zEle3/fC9rLYyunY/MUJA7hrH929TFdoZIZXtwNR/D/X/DvW/S/X/H3bgm0b/d2kH2hb624cdaOP39PfTXGnvawMAAJ2he06U9nlt6ucmqp9fqn6OsPp53vrn6utfb6F+zYz+dU/6167pX3+ofw2p/qdU/1pu/evxO7Cngv59MfTvbdKB/Wk6sMdQB/aJ6sBeX79079cGAAAAAAAAAAAAAAAAAAAAAAAAAAAAQNQPclNNNX+giAMAAAAASUVORK5CYII=">
+            <a href="">Categories</a>
+            <img id="menu-bar-img2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUYAAACbCAMAAAAp3sKHAAAAbFBMVEX39/cAAAD4+Pj7+/v9/f0EBAT09PRRUVHs7OzT09Pv7+/W1tYlJSVVVVXU1NTQ0NAdHR0nJydNTU0ZGRkbGxurq6ulpaUVFRXc3NyWlpY6Ojrk5OSgoKBra2swMDBYWFhCQkLFxcVzc3O3t7f0rb1zAAAIYElEQVR4nO2daWPaMAyGE9kx5IBwdbB2a7fu///HWU6h4UreAMEi+OnHbsVRdFmWTBQFAoFAIBAIBAKBQCAQCAQCgZtCvheAQzJXaygipbT9IeN7LS2QURGRIrtYMsIWS0a//Ry9/vn8axcpHRPR388/r4ufb9LWSvpfETs+x9LWdoQef1ZrLf5p32upYS2DXuItozFFwmzlG+cTx6PdYn9IkmOkd1JMkniU+V5OA9Z1jydxXJOjmFdO+oeV31aOcTzJJEZBhyFV00Ve84sWsVhjnBT3YLsWCmWj+koTp4/+FZLqFl2Xo0BBEvvFxdFiX0T4R/3r26J3/nGRSYzXRNmhFJNERJwhdayLW7v2bys1nHWMR8crTZx/9Gw8R35xJ0dh+mj3WSo7IUXHD89x5oRf3L7i0ViJUke7z1oceJ+aPnp952d1kWH/KGSHzQ6GY/QpKSbOP774yh/NeV3c2rXdFwoJ2CpSp/xiDV/x2mayZdO6OF6LqVOYc7q41cg4KT29cRO9NqzM/WohpU6hTuSLB+/81VO0pkZlrJgY/97RKKKzMbpG6eeVc97dDNu1/32hznSLX6z45cU7Gv2zdWXWsBfGtxxJ7dV0hImRXI2xwTl+4XU/w9to0+IXt2/cT6w2eoOsjuuP/tyjdc2QX2Q2nkKM+g29ZZc/emK/vtjIb1+LVG/vgFHHsauHe9BI1q7jms7Jd53E72/efLjezDA5TnzFa4J00T7DLPdYAaC8wFa58HGuYC0a0kXLPCfymFLofOZ29q1M7l3vcRaN6GJif2a59ilF6x/TOSBEjjPZvTdbFGExOonnqe/6N6nNGllqcu9zLoNm3XG88pTq7C1XW31sN2unj+peO2xuznH5IuJviqmAs2pjMH2MOX+M7uSAjDJtNZ3d611uJFShjDF6CvnHu9o1WzSgijZfTJX3XX/EabUB88ev/Uzvdk2uGtFUpa1hY7SAWt4XGorX8Z3yHiKCoou1j2IqwaJ3qGmB6CPXKfrXRgPGaJvp5GJOixxGwfF6rHpeOGE7wJj3LlqCX6yjS3R/3WcfAFkhRhmYL67Tvt/oBegctese/SPXF9FMx+qirIYEh2F9RJbfqz7i9cXZVJEox7hF5+9uo99KT/VHTgDhyti79330WXS5QuuP/SzAgH4xiVelRIuuoChH6z19nCuY1g6THZzpSAvSNbj+CDG5tV07mUCVMRvlVtaiBUux2s+A+eOtPxqtL1pdnIr1i1tUvkQ0guPMTZ+lwxmg3UfL2rycQlv/mLQG7MT1Sd3KsFxDAWrRhdwYXUeh/vGWc0igRSfu3OV2H9snmBxv2ieFWrTVRStF6QZdQTotgPPCyj9eX+1zFm1Av2gtWmq6eIyGzq9j1yd1vX9s70jevbhi80BS5P0M1AeQ3KZvjzBdtFIsBdZ0GiCFnCvwP7iy/sj/1+li24fx74uNkjXz1A5W72E5mqvyHoXGaJsvlmK30echqP4Yc/3xCn/F9UX8xODxpGj1BPGPSXLdXBw1T2rUKEot5giwE1g9PL48D+c7TNB9dPEoWfcxLn9sfUCrkJPsEvdoeGoItOhCcH2xDaOw85mL71XQ6OnVMn9Qi66o9BGwbO4D6PSc7E7PT/YevKW59YsPsgU8TYdz185/G7bodS7jXo7LMayPkMaMutk1dyTjp/oi2p2uwejpDKs/8jkXaNfucjFIF+0nL/nEoN+HvAe6nAP+sVOccVNDaNadPnJw+cboHOojTbrMfWDTlFUX6CCk+OUfwTwccGJs0Yp1EfmTcx7vHYgcI1Afsf5Hw513oC6u8gcPLfsobD8DziEp3C8OxaIrrH9cYucKH611CnxSg0+vhhFfdmD5Y1zZ9XmNNCoy8IlBOiiLrqAc7LOfNPY1G5V9gFL0dHlEzxD32SO1/sb8sUu3k5wZg1vSaX99QpI25+5wqp8OUhcZsP7o5q9P6lGHGYNUwu2W/UDcR4oI4VxfM15fLD1P9vaLhuJMzOeuB7pk1RPNuvnEYLAWXQH32X8c3pdi5YjOR8/KQdR0mtBwX/OhXWs067YxesgWXYHH6+9+XKuJhFXGbIxeD18XGe7vAfPwrU5xAmhAKfIEm98HvBM6he5VqOfhBo/R6aBjdI1t/RG43yxjkbipIVCKxdRa9HNoozG6XKN9AHzNPXjPGHc7SZym7Am+VwHtax5lEVyljQdXX2wFjtc278GqtE4XH7ZP51Lgea6P8RitjOWDrOg0Q2je8wFJkTvvHrvB5EJA/xhjR4DceTfM+mIbcF9zu6x5H/08MfoArG8PoniWvcspsLkPRIqluDtM7ocxKgXzngYeaQ6wFzgPh+J1sxi5w+Qpg8sXVoyG0PspzrPKH25q6PbA+5lzuPnop3WMO7A6xRkSd3rl+xEkYOD5mTO6qOR+PeQ9Mepyu16mHScYhssV8Xou4V5aIXDeA50rHMB3O4n7pm6v4OcKe7qYamFfCukZtmukL2WP5fTJat2tWLtWXf3jvHySI8AuGFLTNfb9Cl+6yFPmQRuPwes9CeeLA+92uhyawvvrmYxbz2WiSvD+8KJ85spYC9s+gNYxzdUQZwxuhovXgD7aGP3M9cU2uPxI7fWepHyU29o8ojdN8Zpj9Mb3V8Q/BOpvY71nPcypoZtDqqnPvpiqsAWEOF9/dLXucGKA0VB/LKbhxADExmu7Lzx5X/Ns2FNDN+f4XgV3/2I4veqGMdW5654kZ3nIdLrBt3KkB3Y9K8PWpTO0Nz+TDHbKvH++6xSJ+2aSYNGXsbtPKonn01BfvBi9+VMZ9WITqhFXoLJ/H6+vk5f+v51w4ChtCQZ9JYavJKPQGxEIBAKBQCAQCAQCgUAgEAg8Av8BH0ZWRdEVuoMAAAAASUVORK5CYII=">
+
+
+        </div>
+        <div>
+            <a href="">Ready to Ship</a>
+        </div>
+        <div>
+            <a href="">Trade Shows</a>
+        </div>
+        <div>
+            <a href="">Personal Protective E...</a>
+        </div>
+        <div>
+            <a href="">Buyer Central</a>
+        </div>
+        <div>
+            <a href="">Sell on Alibaba</a>
+        </div>
+        <div>
+            <a>Help</a>
+        </div>
+    </div>
+    <!-- Menu bar End -->
+    <div id="middle-bg-color">
+        <div id="slider-whole">
+            <div id="my-market">
+                <div id="my-market-text">
+                    <p>MY MARKETS</p>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img class="market-item-img" src="https://sc02.alicdn.com/kf/HTB12RuNUmzqK1RjSZFH7623CpXa6.png_50x50xz.jpg">
+                        <span>Consumer Electronics</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img class="market-item-img" src="https://sc02.alicdn.com/kf/HTB1gUuPUkzoK1RjSZFl761i4VXaw.png_50x50xz.jpg">
+                        <span>Apparel</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img class="market-item-img" src="https://sc02.alicdn.com/kf/HTB1JdWLUhTpK1RjSZR0762EwXXa6.png_50x50xz.jpg">
+                        <span>Vehicles & Accessories</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img class="market-item-img" src="https://sc02.alicdn.com/kf/HTB1AkuTUgHqK1RjSZJn762NLpXa2.png_50x50xz.jpg">
+                        <span>Sports & Entertainment</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img class="market-item-img" src="https://sc02.alicdn.com/kf/H5e92ef24edc94162b72c331cbd6fbe6fn.png_50x50xz.jpg">
+                        <span>Machinery</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img class="market-item-img" src="https://sc02.alicdn.com/kf/HTB1RxCkXHys3KVjSZFn760FzpXaP.png_50x50xz.jpg">
+                        <span>Home & Garden</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img src="https://sc02.alicdn.com/kf/HTB1K6G0UcfpK1RjSZFO7616nFXah.png_50x50xz.jpg">
+                        <span>Beauty & Personal Care</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+                <div>
+                    <a class="my-market-div" href="">
+                        <img class="market-item-img" src="https://img.alicdn.com/tfs/TB1SFxHuVY7gK0jSZKzXXaikpXa-36-36.png">
+                        <span>All Categories</span>
+                        <img class="market-right-arrow" src="https://www.freeiconspng.com/thumbs/arrow-icon/right-arrow-icon-27.png">
+                    </a>
+                </div>
+            </div>
+            <div id="slider-part">
+                <div id="slider">
+                    <img id="slider-img" src="https://s.alicdn.com/@img/imgextra/i3/O1CN01VfOlOo20vHuwQj9ml_!!6000000006911-2-tps-990-400.png">
+                </div>
+                <div id="below-slider">
+
+                    <a href="" class="below-slider-size" id="featured">
+                        <p>featured regional suppliers</p>
+                        <div>Source now</div>
+                    </a>
+                    <a href="" class="below-slider-a">
+                        <p>Trending<br> products</p>
+                        <div>Source now</div>
+                    </a>
+                    <a href="" class="below-slider-a">
+                        <p>Discover <br>Featured ...</p>
+                        <div>Source now</div>
+                    </a>
+                    <a href="" class="below-slider-a">
+                        <p>Source from<br> featured US...</p>
+                        <div>Source now</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="new-arrival">
+            <div>
+                <p id="para">New Arrival</p>
+                <div id="new-arrival-div">
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/Hca3cdf217d024b5bbeb8bf8892fbfab1B.jpg_120x120.jpg">
+                            <p class="para1">$8.90</p>
+                            <p class="para2">Trending Now</p>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/Hb376e474e46043e49b9008e19ac709cf7.jpg_120x120.jpg">
+                            <p class="para1">$0.54</p>
+                            <p class="para2">Trending Now</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/H38744bf48e95464fb74b9587410f56580.jpg_120x120.jpg">
+                            <p class="para1">$6.21</p>
+                            <p class="para2">Trending Now</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p id="para">Top-ranked Products</p>
+                <div id="new-arrival-div">
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/HTB1fmoLc56guuRkSnb4q6zu4XXaN.jpg_120x120xz.jpg">
+                            <p class="para1">$82.00</p>
+                            <p class="para2">50 Sets</p>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/HTB1nvbPd.uF3KVjSZK9q6zVtXXaX.jpg_120x120xz.jpg">
+                            <p class="para1">$35.00</p>
+                            <p class="para2">100 Pieces</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/H6c06c819ac4e4a109056f4af2d83ce76h.png_120x120xz.jpg">
+                            <p class="para1">$39.00</p>
+                            <p class="para2">100.0 Pieces</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p id="para">Personal Protective Equipment</p>
+                <div id="new-arrival-div">
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/Hca02c1c9839544dcb63de254a72b2dd8Z.jpg_120x120xz.jpg">
+                            <p class="para1">$4.99</p>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/HTB1wnJ4LpXXXXXHXpXXq6xXFXXXL.jpg_120x120xz.jpg">
+                            <p class="para1">$0.10</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/H4a681cc65a4a4442ba9288bcffcd84c1V.jpg_120x120xz.jpg">
+                            <p class="para1">$6.21</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="new-arrival">
+            <div>
+                <p id="para">Dropshipping</p>
+                <div id="new-arrival-div">
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/H4c514ffec9084a2488e0526d9520ff670.png_120x120xz.jpg">
+                            <p class="para1">$0.50</p>
+                            <p class="para2">1 Piece</p>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/Ha7568906c4b54f4cb20c2db237497bbbG.jpg_120x120xz.jpg">
+                            <p class="para1">$16.36</p>
+                            <p class="para2">1 Piece</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/H12032b0fe56c4514a171edb7ce6eb50eq.jpg_120x120xz.jpg">
+                            <p class="para1">$0.15</p>
+                            <p class="para2">500 Piece</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p id="para">Global Original Sources</p>
+                <div id="new-arrival-div">
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/HTB16bnwkYSYBuNjSspiq6xNzpXao.jpg_120x120xz.jpg">
+                            <p class="para1">$1.50</p>
+                            <p class="para2">100 Piece</p>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/Hc91343a93dac4685998e78f846244b51z.jpg_120x120xz.jpg">
+                            <p class="para1">$5.00</p>
+                            <p class="para2">5.0 Pieces</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/He0474b124f0e4ca5a770ce9d0780c8baM.jpg_120x120xz.jpg">
+                            <p class="para1">$4.00</p>
+                            <p class="para2">50.0 Pieces</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p id="para">True View</p>
+                <div id="new-arrival-div">
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/H6db162c36fb44afdb3e6779837fa779aH.jpg_120x120xz.jpg">
+                            <p class="para1">$0.03</p>
+                        </a>
+
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/H2048ee424aee42e9adc63d594fcd1535S.jpg_120x120xz.jpg">
+                            <p class="para1">$1.95</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="https://s.alicdn.com/@sc04/kf/HTB1dTXHOgHqK1RjSZFPq6AwapXaR.jpg_120x120xz.jpg">
+                            <p class="para1">$210.00</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
